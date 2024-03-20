@@ -95,6 +95,11 @@ namespace Calculator
 			double monthlyRepayment = principle * (monthlyInterestRate * Math.Pow(1 + monthlyInterestRate, months)) / denominator;
 			return monthlyRepayment;
 		}
+
+		private void Button_Click_1(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MainMenu));
+		}
 	}
     
 }

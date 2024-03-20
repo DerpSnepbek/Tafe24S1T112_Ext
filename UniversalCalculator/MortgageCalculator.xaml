@@ -40,7 +40,7 @@
 					<Button Content="Calculate" HorizontalAlignment="Center" Margin="20" Foreground="White" Background="DarkSlateGray" Click="Button_Click"/>
 				</StackPanel>
 				<StackPanel Height="60">
-					<Button Content="Exit" HorizontalAlignment="Center" Margin="10" Foreground="White" Background="DarkSlateGray"/>
+					<Button Content="Exit" HorizontalAlignment="Center" Margin="10" Foreground="White" Background="DarkSlateGray" Click="Button_Click_1"/>
 				</StackPanel>
 			</StackPanel>
 		</StackPanel>
